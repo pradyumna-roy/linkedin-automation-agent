@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Add these to your .gitignore right now alongside .env
+*profile/
+cookies/
+*.mp4
+*.png
+
+
+# Browser data and authentication
+linkedin_auth.json
+user_data/
+browser_data/
+
+# OS files
+.DS_Store
+Thumbs.db
